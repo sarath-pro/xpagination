@@ -25,8 +25,10 @@ export default function Pagination() {
                 let data = await response.json()
                 console.log(data)
                 setData(data)
+                alert('fetched data')
             } catch(error) {
                 console.log(error)
+                alert('Failed to fetch data')
             }
         }
         fetchData()
