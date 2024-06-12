@@ -1,0 +1,64 @@
+* {
+    --mycolor: #289c6e
+}
+
+.paginate {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.paginate div, button {
+    background-color: var(--mycolor);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+    /* height: 340px; */
+    border-bottom: 2px var(--mycolor) solid;
+    box-shadow: 1px 3px #00000010;
+}
+
+thead {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--mycolor);
+    color: white;
+    padding: 4px;
+}
+
+tr {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    border-bottom: .25px #00000020 solid;
+}    
+
+
+td {
+    text-align: start;
+    width: 100%;
+    margin: 2px;
+    padding: 4px;
+}
+
+th {
+    text-align: start;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
